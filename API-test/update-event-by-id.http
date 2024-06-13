@@ -1,0 +1,9 @@
+PUT http://localhost:8080/events/4
+Content-Type: application/json
+
+{
+    "name" :"Event 4",
+    "description": "This is the forth test event",
+    "location": "NPCI Chennai",
+    "dateTime": "2024-08-14T16:20:00.000Z"
+}
